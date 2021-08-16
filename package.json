@@ -1,0 +1,33 @@
+{
+  "name": "Meatapp",
+  "version": "0.1.0",
+  "engines": {
+    "node": "11.5.0"
+  },
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "bcrypt-promise": "^2.0.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "~1.4.3",
+    "debug": "^3.1.0",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "moment": "^2.22.2",
+    "mongoose": "^5.1.2",
+    "mongoose-aggregate-paginate": "^1.1.3",
+    "mongoose-paginate": "^5.0.3",
+    "mongoose-validator": "^2.0.2",
+    "morgan": "^1.9.1",
+    "msg91": "0.0.6",
+    "parse-error": "^0.2.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "promise": "^8.0.3",
+    "serve-favicon": "^2.5.0",
+    "validator": "^10.4.0"
+  }
+}
